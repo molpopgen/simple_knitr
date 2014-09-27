@@ -13,6 +13,8 @@ x.p
 @ 
 \caption{\label{fig1}A figure}
 \end{figure}
+
+This is a reference to Figure \ref{fig1}.
 \end{document}
 
 
