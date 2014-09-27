@@ -1,0 +1,1 @@
+A simple knitr/latex document and a Makefile

@@ -1,0 +1,22 @@
+\documentclass{article}
+
+\begin{document}
+
+\begin{figure}
+  \centering
+<<Figure1,echo=F,warnings=F,message=F>>=
+suppressPackageStartupMessages(library(ggplot2))
+x=data.frame(rnorm(1e3))
+names(x)[1] <- "X"
+x.p = ggplot(x,aes(x=X)) + geom_histogram() + theme_bw()
+x.p
+@ 
+\caption{\label{fig1}A figure}
+\end{figure}
+\end{document}
+
+
+
+
+
+
